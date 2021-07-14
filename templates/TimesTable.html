@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TimesTable</title>
+</head>
+<body>
+    <h1>Times Table for {{x}}</h1>
+    {% for x in range(0, 11) %}
+    <p>
+        {{x}} x 0 = {{x*0}}
+        {{x}} x 1 = {{x*1}}
+        {{x}} x 2 = {{x*2}}
+        {{x}} x 3 = {{x*3}}
+        {{x}} x 4 = {{x*4}}
+        {{x}} x 5 = {{x*5}}
+        {{x}} x 6 = {{x*6}}
+        {{x}} x 7 = {{x*7}}
+        {{x}} x 8 = {{x*8}}
+        {{x}} x 9 = {{x*9}}
+        {{x}} x 10 = {{x*10}}
+        {{break}}
+    </p>
+    {% endfor %}
+</body>
+</html>
